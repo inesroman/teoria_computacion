@@ -1,0 +1,23 @@
+/* Comentario
+ * de
+ * parrafo
+ */
+
+#include<stdio.h>
+#include "string"
+
+const float PI = 3.1415;
+
+//Metodo mostrar
+void mostrar()
+{
+	printf( "Hola mundo /*/*/*/*\*\*\* \n" ); //cuidado
+	printf( "Hola mundo /*/*/*/*\*\*\* \n" );
+}
+/* Metodo main */
+void mian()
+{
+	mostrar();
+	if( PI > 2 * PI )
+		printf( "Mala cosa \n ");
+}
